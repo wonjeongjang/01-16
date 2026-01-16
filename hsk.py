@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="10월 수산물 무역 리포트", layout="wide")
 
 # [중요] GitHub에 올린 실제 파일명과 똑같이 수정하세요.
-FILE_NAME = 'trade_data.CSV' 
+FILE_NAME = 'data.CSV' 
 
 # --- 2. 데이터 불러오기 함수 (강력한 인코딩 방어형) ---
 @st.cache_data
