@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="10월 수산물 무역 리포트", layout="wide")
 
-FILE_NAME = '해양수산부_HSK품목별수출입현황_20251031.csv' 
+FILE_NAME = 'trade_data.CSV' 
 
 @st.cache_data
 def load_data():
